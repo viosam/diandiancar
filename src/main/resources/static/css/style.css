@@ -1,0 +1,32 @@
+.navbar-header{
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+.onepage{
+    height:700px;
+}.onepage-bg{
+     width: 100%;
+     height: 800px;
+     position: absolute;
+     background-position: center,center;
+     background-size: cover;
+ }
+#onepage-bg{
+    background-image: url("../image/03.jpg");
+}
+.onepageh1size{
+    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+    font-size: 36px;
+    padding-top:4rem ;
+    color:#5cb85c;
+    text-shadow: 1px 1px black;
+}
+.onepagelinesize{
+    margin-top: 15rem;
+    font-size: 18px;
+    margin-left: 11rem;
+    line-height: 40px;
+}
+.onepagebtnsize{
+    margin-left: 6rem;
+    margin-top: 5rem;
+}

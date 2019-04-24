@@ -1,0 +1,27 @@
+spring:
+
+#配置页面使用jsp
+  mvc:
+    view:
+      suffix: .jsp
+      cache: false
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost/diandian_car?characterEncoding=utf-8
+  jpa:
+    show-sql: true
+  servlet:
+    multipart:
+      # 单个文件的最大值
+      max-file-size: 10MB
+      # 上传文件总的最大值
+      max-request-size: 10MB
+  freemarker:
+    check-template-location: false
+
+server:
+  servlet:
+    context-path: /diandiancar
